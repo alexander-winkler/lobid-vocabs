@@ -4980,7 +4980,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2026-07-16" ;
+        dct:modified                   "2026-08-19" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -19554,6 +19554,13 @@ nwbib-spatial:Q2106829
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stift Quernheim"@de ;
         foaf:focus      wd:Q2106829 .
+
+nwbib-spatial:Q141125893
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253185 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dreisel"@de ;
+        foaf:focus      wd:Q141125893 .
 
 nwbib-spatial:Q19869  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q4068 ;
